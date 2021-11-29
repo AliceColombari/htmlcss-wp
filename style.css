@@ -17,13 +17,11 @@ body{
 
 
 /* Inizio header sito */
-
 header .header img{
     height: 70px;
     border-right: 1px solid #ccc;
     padding-right: 20px;
 }
-
 /* Inizio header menu sito */
 nav{
     margin-top: 20px;
@@ -57,9 +55,11 @@ img.banner-image{
     width: 100%;
     height: 500px;
     object-fit: cover;
+    border-radius: 20px;
 }
 
 .overlay{
+    border-radius: 20px;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.2);
     top: 0;
@@ -83,7 +83,6 @@ img.banner-image{
 .banner-title{
     font-size: 2em;
 }
-
 /* Fine header banner sito */
 /* Fine header sito */
 
@@ -98,7 +97,6 @@ img.banner-image{
 main{
     background-color: rgb(1, 133, 255);
     width: 100%;
-    /* height: 500px; */
 }
 
 main .cyan {
@@ -111,20 +109,21 @@ main .col{
     margin-bottom: 20px;
 }
 
+/* title */
 main .title{
-    height: 100px;
-    width: 100%;
+    font-size: 20px;
     margin-bottom: 30px;
 }
+main .title-grey{
+    color: grey;
+}
+/* fine title */
 
 main .col-left{
     width: 20%;
 }
 
 main .col-center{
-    /* width: 60%;
-    margin: 0px 20px; */
-
     width: 60%;
     padding: 0px 20px;
 }
