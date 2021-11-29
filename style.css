@@ -95,16 +95,10 @@ img.banner-image{
 } 
 
 main{
-    background-color: rgb(1, 133, 255);
     width: 100%;
 }
 
-main .cyan {
-    background-color: rgb(171, 207, 231);
-}
-
 main .col{
-    height: 400px;
     float: left;
     margin-bottom: 20px;
 }
@@ -127,22 +121,12 @@ main .col-left{
 
 .frame-content{
     position: relative;
-}
-
-.overlay-uno{
-    border-radius: 20px;
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.2);
-    top: 0;
-    left: 0;
-    width: 200px;
-    height: 200px
-    
+    font-size: 0;
 }
 
 img.col-frame-uno{
     height: 200px;
-    width: 200px;
+    width: 100%;
     object-fit: cover;
     border-radius: 20px;
 }
