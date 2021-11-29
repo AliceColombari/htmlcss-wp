@@ -7,16 +7,17 @@
 
 .container{
     width: 80%;
-    margin: 10px auto;
+    margin: auto;
 }
 /* Fine common */
 
 
 /* Inizio header sito */
-header .header{
-    background-color: rgb(229, 121, 230) ;
-    height: 100px;
-    width: 100%;
+
+header .header img{
+    height: 70px;
+    border-right: 1px solid #ccc;
+    padding-right: 20px;
 }
 
 header .banner{
