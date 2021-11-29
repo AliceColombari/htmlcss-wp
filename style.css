@@ -1,0 +1,89 @@
+/* Inizio common */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: 10px auto;
+}
+/* Fine common */
+
+
+/* Inizio header sito */
+header .header{
+    background-color: rgb(229, 121, 230) ;
+    height: 100px;
+    width: 100%;
+}
+
+header .banner{
+    background-color: rgb(225, 214, 122) ;
+    height: 500px;
+    width: 100%;
+    margin: 20px 0px;
+}
+/* Fine header sito */
+
+
+/* Inizio corpo centrale sito */
+.clearfix::after{
+    display: table;
+    content: "";
+    clear: both;
+} 
+
+main{
+    background-color: rgb(1, 133, 255);
+    width: 100%;
+    /* height: 500px; */
+}
+
+main .cyan {
+    background-color: rgb(171, 207, 231);
+}
+
+main .col{
+    height: 400px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+main .title{
+    height: 100px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+main .col-left{
+    width: 20%;
+}
+
+main .col-center{
+    /* width: 60%;
+    margin: 0px 20px; */
+
+    width: 60%;
+    padding: 0px 20px;
+}
+
+.internal{
+    height: 100%;
+}
+
+main .col-right{
+    width: 20%;
+}
+/* Fine corpo centrale sito */
+
+
+/* Footer sito */
+footer{
+    margin-top: 20px;
+    background-color: rgb(136, 1, 254) ;
+    height: 50px;
+    width: 100%;
+}
+/* Fine Footer sito */
