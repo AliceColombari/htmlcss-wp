@@ -158,8 +158,16 @@ main .col-right{
 /* Footer sito */
 footer{
     margin-top: 30px;
-    background-color: rgb(136, 1, 254) ;
-    height: 50px;
-    width: 100%;
+}
+
+.footer-text{
+    text-align: center;
+    font-size: 15px;
+}
+
+.heart{
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    
 }
 /* Fine Footer sito */
