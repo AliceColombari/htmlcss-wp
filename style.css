@@ -129,14 +129,26 @@ main .col-left{
     position: relative;
 }
 
+.overlay-uno{
+    border-radius: 20px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px
+    
+}
+
 img.col-frame-uno{
     height: 200px;
+    width: 200px;
     object-fit: cover;
     border-radius: 20px;
 }
 
-.text-content{
-    
+.text-content .text{
+    color: grey;
 }
 
 h3{
