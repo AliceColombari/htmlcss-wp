@@ -130,7 +130,7 @@ main .col-left{
 }
 
 img.col-frame-uno{
-    height: 200px;
+    /* height: 200px; */
     width: 100%;
     object-fit: cover;
     border-radius: 20px;
