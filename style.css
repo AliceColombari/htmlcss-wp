@@ -6,7 +6,7 @@
 }
 
 body{
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container{
@@ -145,7 +145,6 @@ img.col-frame-uno{
 
 h3{
     padding: 10px 0px;
-    font-weight: 100;
 }
 /* fine prima colonna */
 
