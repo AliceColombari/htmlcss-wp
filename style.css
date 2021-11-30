@@ -74,6 +74,7 @@ img.banner-image{
     bottom: 0;
     left: 0;
     padding: 0px 0px 90px 50px;
+    width: 50%;
 }
 
 .banner{
@@ -127,10 +128,11 @@ main .col-left{
 .frame-content{
     position: relative;
     /* font-size: 0; */
+    height: 200px;
 }
 
 img.col-frame-uno{
-    height: 200px;
+    height: 100%;
     width: 100%;
     object-fit: cover;
     border-radius: 20px;
@@ -165,14 +167,15 @@ main .col-right{
 /* Footer sito */
 footer{
     margin-top: 30px;
+    text-align: center;
 }
 
 .footer-text{
-    text-align: center;
     font-size: 15px;
 }
 
-.heart{
+footer .footer-text::after{
+    content: "\2665";
     color: rgb(255, 0, 0);
     font-size: 20px;
     
